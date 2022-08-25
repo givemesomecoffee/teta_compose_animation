@@ -15,5 +15,3 @@ dependencyResolutionManagement {
 rootProject.name = "teta_gradle_avserebrya"
 
 include(":app")
-include(":feature1")
-include(":feature2")

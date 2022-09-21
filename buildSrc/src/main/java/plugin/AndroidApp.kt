@@ -42,6 +42,12 @@ abstract class AndroidApp : Plugin<Project> {
             kotlinOptions {
                 jvmTarget = MainConfig.JVM_TARGET
             }
+            buildFeatures {
+                compose = true
+            }
+            composeOptions {
+                kotlinCompilerExtensionVersion = Versions.COMPOSE
+            }
         }
 
         project.applyDependencies(
